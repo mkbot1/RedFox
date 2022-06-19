@@ -403,8 +403,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
             InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
             ],[
-            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/+veUIdIW2CQ5mOGU5'),
-            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
+            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
             ],[
             InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
@@ -417,31 +417,33 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[            
-            InlineKeyboardButton('😎 𝐀𝐝𝐦𝐢𝐧 ', callback_data='admin'),
-            InlineKeyboardButton('🗳️ 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐅𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual')
+            InlineKeyboardButton(' 𝘈𝘋𝘔𝘐𝘕 ', callback_data='admin'),
+            InlineKeyboardButton(' 𝘊𝘖𝘕𝘕𝘖𝘊𝘛 ', callback_data='coct'),
+            InlineKeyboardButton(' 𝘍𝘐𝘓𝘛𝘌𝘙𝘚 ', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('📖 𝐆𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans'),
-            InlineKeyboardButton('📄 𝐈𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🖥️ 𝐏𝐚𝐬𝐭𝐞 ', callback_data='paste')
+            InlineKeyboardButton(' 𝘎𝘛𝘙𝘈𝘕𝘚 ', callback_data='gtrans'),
+            InlineKeyboardButton(' 𝘐𝘕𝘍𝘖 ', callback_data='info'),
+            InlineKeyboardButton(' 𝘗𝘈𝘚𝘛 ', callback_data='paste')
             ],[
-            InlineKeyboardButton('💣 𝐏𝐮𝐫𝐠𝐞 ', callback_data='purge'),
-            InlineKeyboardButton('🔇 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 ', callback_data='search')
+            InlineKeyboardButton(' 𝘗𝘜𝘙𝘎𝘌 ', callback_data='purge'),
+            InlineKeyboardButton(' 𝘙𝘌𝘚𝘛𝘙𝘐𝘊𝘛 ', callback_data='restric'),
+            InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', callback_data='search')
             ],[
-            InlineKeyboardButton('📸 𝐓𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph'),
-            InlineKeyboardButton('🤔 𝐖𝐡𝐨𝐢𝐬 ', callback_data='whois'),
-            InlineKeyboardButton('🤡 𝐅𝐮𝐧 ', callback_data='fun')
+            InlineKeyboardButton(' 𝘛𝘎𝘙𝘈𝘗𝘏 ', callback_data='tgraph'),
+            InlineKeyboardButton(' 𝘞𝘏𝘖𝘐𝘚 ', callback_data='whois'),
+            InlineKeyboardButton(' 𝘎𝘈𝘔𝘌 ', callback_data='fun')
             ],[
-            InlineKeyboardButton('🥱 𝐀𝐥𝐢𝐯𝐞 ', callback_data='alive'),
-            InlineKeyboardButton('🎶 𝐒𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐉𝐬𝐨𝐧 ', callback_data='json')
+            InlineKeyboardButton(' 𝘈𝘓𝘐𝘝𝘌 ', callback_data='alive'),
+            InlineKeyboardButton(' 𝘠𝘛 𝘚𝘌𝘙𝘝𝘌𝘙 ', callback_data='song'),
+            InlineKeyboardButton(' 𝘑𝘚𝘖𝘕 ', callback_data='json')
             ],[
-            InlineKeyboardButton('📌 𝐏𝐢𝐧 ', callback_data='pin'),
-            InlineKeyboardButton('🦠 𝐂𝐨𝐯𝐢𝐝 ', callback_data='corona'),
-            InlineKeyboardButton('🖨️ 𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐈𝐃 ', callback_data='stickerid')
+            InlineKeyboardButton(' 𝘗𝘐𝘕 ', callback_data='pin'),
+            InlineKeyboardButton(' 𝘊𝘖𝘝𝘐𝘋 ', callback_data='corona'),
+            InlineKeyboardButton(' 𝘚𝘛𝘐𝘊𝘒𝘌𝘙 𝘐𝘋 ', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('❈ 𝙱𝙰𝙲𝙺 ❈', callback_data='start')
+            InlineKeyboardButton(' 🏠𝘏𝘖𝘔𝘌  ', callback_data='start'),
+            InlineKeyboardButton(' 🔰𝘚𝘛𝘈𝘛𝘜𝘚 ', callback_data='stats'),
+            InlineKeyboardButton(' ⛔𝘊𝘓𝘖𝘚𝘌 ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -452,14 +454,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/Aadhi000/Red-Fox')
+            InlineKeyboardButton('🔰𝘚𝘛𝘈𝘛𝘜𝘚 ', callback_data='stats'),
+            InlineKeyboardButton(' 🗒️𝘚𝘖𝘜𝘙𝘊𝘌', url='http://t.me/faisalkvr'),
+            InlineKeyboardButton(' 📚𝘏𝘌𝘓𝘗 ', callback_data='help')
             ],[
-            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂', callback_data='help')
+            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
+            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
             ],[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
-            InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
+            InlineKeyboardButton(' 🏠𝘏𝘖𝘔𝘌 ', callback_data='start'),
+            InlineKeyboardButton(' ⛔𝘊𝘓𝘖𝘚𝘌 ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
