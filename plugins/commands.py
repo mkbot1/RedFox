@@ -39,11 +39,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('+ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗  +', url='http://t.me/Ai_autofilter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('𝐒𝐞𝐚𝐫𝐜𝐡', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
+            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
             ],[
-            InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
-            InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/+veUIdIW2CQ5mOGU5'),
+            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            ],[
+            InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -80,11 +82,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('+ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗  +', url='http://t.me/Ai_autofilter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('𝐒𝐞𝐚𝐫𝐜𝐡', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
+            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
             ],[
-            InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
-            InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/+veUIdIW2CQ5mOGU5'),
+            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            ],[
+            InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
