@@ -1,27 +1,24 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚢 𝚗𝚊𝚖𝚎 , <a href='https://t.me/RedFoxx_Bot'>ᏒΞᎠFOX</a>, 𝙸𝚝'𝚜 𝚟𝚎𝚛𝚢 𝚎𝚊𝚜𝚢 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗, 𝚃𝚑𝚊𝚝𝚜 𝚊𝚕𝚕 𝙸'𝚕𝚕 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜 𝚝𝚑𝚎𝚛𝚎 ♥️
+    START_TXT = """𝘏𝘌𝘠 {},
+𝘔𝘠 𝘕𝘈𝘔𝘌 , <a href='https://t.me/RedFoxx_Bot'>𝘛𝘐𝘈𝘕𝘈 𝘉𝘖𝘛</a>, 𝘐𝘵'𝘴 𝘷𝘦𝘳𝘺 𝘦𝘢𝘴𝘺 𝘫𝘶𝘴𝘵 𝘢𝘥𝘥 𝘮𝘦 𝘵𝘰 𝘺𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱 𝘢𝘯𝘥 𝘮𝘢𝘬𝘦 𝘢 𝘢𝘥𝘮𝘪𝘯, 𝘛𝘩𝘢𝘵𝘴 𝘢𝘭𝘭 𝘐'𝘭𝘭 𝘱𝘳𝘰𝘷𝘪𝘥𝘦 𝘮𝘰𝘷𝘪𝘦𝘴 𝘵𝘩𝘦𝘳𝘦 ♥️
 """
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
+    HELP_TXT = """𝘏𝘌𝘠 {}
+𝘏𝘦𝘳𝘦 𝘪𝘴 𝘵𝘩𝘦 𝘩𝘦𝘭𝘱 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆
-╔═════❰ ᏒΞᎠFOX ❱══⪼𒆜
-║╭━━━━━━━━━━━━━━━⏤͟͟͞͞★ 
-║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/RedFoxx_Bot"> ᏒΞᎠFOX </a>
-║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/Aadhi010"> 𝙰𝙰𝙳𝙷𝙸 </a>
-║┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-║┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-║┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-║┣⪼ 𝚂𝙴𝚁𝚅𝙴𝚁 -  𝙷𝙴𝚁𝙾𝙺𝚄
-║┣⪼ 𝙱𝚄𝙸𝙻𝚃 𝚂𝚃𝙰𝚃𝚂 - v1.0.2 [ 𝙱𝙴𝚃𝙰 ]
-║╰━━━━━━━━━━━━━━━⏤͟͟͞͞★ ╚══════════════════⪼𒆜"""
+ 𝘔𝘠 𝘕𝘈𝘔𝘌 - <a href="https://t.me/RedFoxx_Bot"> 𝘛𝘐𝘈𝘕𝘈 </a>
+ 𝘊𝘙𝘌𝘈𝘛𝘖𝘙 - <a href="https://t.me/Aadhi010"> 𝘍𝘈𝘐𝘚𝘈𝘓 𝘒𝘝𝘙 </a>
+ 𝘓𝘐𝘉𝘙𝘈𝘙𝘠 - 𝘗𝘠𝘙𝘖𝘎𝘙𝘈𝘔
+ 𝘓𝘈𝘕𝘎𝘜𝘈𝘎𝘌 - 𝘗𝘠𝘛𝘏𝘖𝘕 3
+ 𝘋𝘈𝘛𝘈𝘉𝘈𝘚𝘌 - 𝘔𝘖𝘕𝘎𝘖-𝘋𝘉
+ 𝘚𝘌𝘙𝘝𝘌𝘙 -  𝘏𝘌𝘙𝘖𝘒𝘜
+ 𝘉𝘜𝘐𝘓𝘛 𝘚𝘛𝘈𝘛𝘜𝘚 - 𝘝1.0.2 [ 𝘉𝘌𝘛𝘈 ]
+"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://t.me/RedFoxx_Bot"> ᏒΞᎠFOX"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
+- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://t.me/faisalkvr"> FAISALKVR"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
 
 𝗠𝗔𝗦𝗧𝗘𝗥:
-<a href="https://t.me/team_annaben"> 𝑻𝑬𝑨𝑴 𝑨𝑵𝑵𝑨 </a>"""
+<a href="https://t.me/faisalkvr"> FaisalKvr </a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
@@ -100,7 +97,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/AnyMoviezRequest)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -256,6 +253,7 @@ This module only works for my admins
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
 __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+നിങ്ങൾ അഭ്യർത്ഥിച്ച സിനിമ ലഭിക്കുന്നതിന്, നിങ്ങൾ ആദ്യം ഞങ്ങളുടെ ചാനലിൽ ചേരേണ്ടതുണ്ട്. അതിനുശേഷം, ഞങ്ങളുടെ ഗ്രൂപ്പിൽ നിന്ന് ആ സിനിമ വീണ്ടും ആക്സസ് ചെയ്യാൻ ശ്രമിക്കുക. ഞാൻ ആ സിനിമ നിങ്ങൾക്ക് സ്വകാര്യമായി അയച്ചുതരാം
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
