@@ -42,8 +42,8 @@ async def start(client, message):
             InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
             InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
             ],[
-            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/+veUIdIW2CQ5mOGU5'),
-            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
+            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
             ],[
             InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
@@ -85,8 +85,8 @@ async def start(client, message):
             InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
             InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
             ],[
-            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/+veUIdIW2CQ5mOGU5'),
-            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
+            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
             ],[
             InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
