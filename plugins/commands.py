@@ -37,7 +37,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ⚚', url='https://t.me/RedFoxx_Bot?startgroup=true')
+            InlineKeyboardButton('+ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗  +', url='http://t.me/Ai_autofilter_bot?startgroup=true')
             ],[
             InlineKeyboardButton('𝐒𝐞𝐚𝐫𝐜𝐡', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/+veUIdIW2CQ5mOGU5')
