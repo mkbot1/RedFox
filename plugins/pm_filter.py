@@ -127,7 +127,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌')
+            k = await query.message.edit('𝘛𝘏𝘐𝘚 𝘔𝘖𝘝𝘐𝘌 𝘐𝘚 𝘕𝘖𝘛 𝘠𝘌𝘛 𝘙𝘌𝘓𝘌𝘈𝘚𝘌𝘋 𝘖𝘙 𝘈𝘋𝘋𝘌𝘋 𝘛𝘖 𝘋𝘈𝘛𝘈𝘉𝘈𝘚𝘌 ,ഈ സിനിമ ഇതുവരെ റിലീസ് ചെയ്യുകയോ ഡാറ്റാബേസിൽ ചേർക്കുകയോ ചെയ്തിട്ടില്ല')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -400,11 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('+ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗  +', url='http://t.me/Ai_autofilter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
-            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
-            ],[
-            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
-            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
+            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 ', callback_data='help'),
+            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 ', callback_data='about')
             ],[
             InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
