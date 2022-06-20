@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API = "https://api.sumanjay.cf/covid/?country="
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join our Channel ⚙', url='https://t.me/team_annaben')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('⚙ 𝘑𝘖𝘐𝘕 𝘖𝘜𝘙 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 ⚙', url='https://t.me/MkTgBots')]])
 
 @Client.on_message(filters.command("covid"))
 async def reply_info(client, message):
