@@ -39,11 +39,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('+ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗  +', url='http://t.me/Ai_autofilter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
-            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
-            ],[
-            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
-            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
+            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 ', callback_data='help'),
+            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 ', callback_data='about')
             ],[
             InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
@@ -79,14 +76,11 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
+        buttons =[[
             InlineKeyboardButton('+ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗  +', url='http://t.me/Ai_autofilter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 📚', callback_data='help'),
-            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 👤', callback_data='about')
-            ],[
-            InlineKeyboardButton('🎵 𝘔𝘜𝘚𝘐𝘊 🎵', url='https://t.me/AnySongsRequest'),
-            InlineKeyboardButton('🎥 𝘔𝘖𝘝𝘐𝘌𝘚 🎥', url='https://t.me/AnyMoviezRequest')
+            InlineKeyboardButton('📚 𝘏𝘌𝘓𝘗 ', callback_data='help'),
+            InlineKeyboardButton('👤 𝘈𝘉𝘖𝘜𝘛 ', callback_data='about')
             ],[
             InlineKeyboardButton(' 𝘚𝘌𝘈𝘙𝘊𝘏 ', switch_inline_query_current_chat='')
         ]]
